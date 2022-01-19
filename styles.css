@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&family=Mochiy+Pop+P+One&family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400;500&family=Merriweather:wght@700&family=Mochiy+Pop+P+One&family=Pangolin&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: #e5e5e5;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center; 
+    overflow: hidden;
+    margin: 0;
+}
+
+.h1 {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    /* font-family: 'Pangolin', cursive; */
+    justify-content: center;
+    padding: 1px 90px;
+    color: rgb(14, 6, 0);
+}
+
+.row {
+    font-family: 'Pangolin', cursive;
+    display: flex; 
+    width: 500px;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.col-header {
+    width: 150px;
+    box-shadow: 4px 4px 9px rgba(253, 253, 253, 0.36);
+    border-radius: 20px;
+    padding: 0.8rem 1rem;
+    color: rgb(44, 2, 9);
+    background: #a8a6ff;
+}
+
+.item {
+    width: 150px;
+    height: 60px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 6px rgba(85, 8, 8, 0.36);
+    border-radius: 20px;
+    background: #f7f6f7;
+    padding: 0.6rem 2.5rem;
+    color: #1d0000;
+    }
+
+.item:active {
+    cursor: grabbing;
+}
+
+.placeholder {
+    width: 150px;
+    height: 1000px;
+}
+
+.start {
+    background: linear-gradient(90deg, #8f0c72 0% #229efd 179.25%);
+}
+
+.progress{
+    background: linear-gradient(90deg, #209cff 0% #68e0cf 100%);
+}
+
+.done {
+    background: linear-gradient(90deg, #84fab0 0% #8fd3f4 100%);
+}
+
+.hold {
+    border: 1px solid rgb(195, 162, 255);
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    border-top: 2px solid blueviolet;
+}
